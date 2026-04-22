@@ -1,0 +1,2 @@
+case_id,dog_name,age_group,dog_type,fitness_level,limitations,equipment_available,goal,activities
+CASE_001,Chouffe,adult,sportdog,high,no balance,non,sport,"tue:agility,thu:walk"

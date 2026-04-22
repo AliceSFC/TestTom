@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uvicorn app:app:*)",
+      "Bash(timeout 3 cmd:*)",
+      "Bash(python -m uvicorn:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Render deployment config\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(.venvScriptspip install pytest -q)",
+      "Bash(.venvScriptspython -m pytest tests/test_generator.py -v)",
+      "Bash(pip install:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
